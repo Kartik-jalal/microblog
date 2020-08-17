@@ -1,0 +1,74 @@
+/*Css for the box in which you see the login, search, post form*/
+#theBox { 
+ 	border : 5px solid green;
+	border-radius: 8px;
+	width : 300px;
+	padding : 25px;
+	margin : auto;
+	text-align : center;
+	margin-top : 150px;
+	
+}
+
+/*css for the table, table-header and table-data */
+table, th, td {
+	border : 3px solid black;
+	border-radius: 50px; /* just for hover later on line 30 and line 35*/
+}
+/*css for the table-header and data*/
+th, td{
+	padding : 15px;
+}
+/*css for the table*/
+table {
+border-collapse: collapse;
+margin : auto;
+margin-top : 40px;
+
+}
+/*css when some going to hover over table-row*/
+tr:hover{
+	color: black;
+	background: yellow;
+}
+
+/*css when some going to hover over table-header row*/
+tr:hover th{
+	color: black;
+	background: cyan;
+}
+
+/*css for The Follow Button*/
+#follow {   
+	color: black;
+	background: white;
+	padding:10px;
+	border-radius: 50px;
+	position: absolute;
+	font-family: serif;
+	font-size: 15px;
+	font-weight: bold;
+}
+/*css for when someone is going to hover over the follow button*/
+#follow:hover {
+	color: black;
+	background: yellow;
+}
+
+/*css for when someone is going to hover over the submit button*/
+#submit:hover {
+	color: black;
+	background: yellow;
+	border-radius: 5px;
+}
+
+/*css for when user write the wring credentials*/
+#invalid {
+	color: red;
+	text-decoration: underline black;
+}
+/*css for when the user went to the login-page*/
+#greet {
+	 color:lightblue;
+	 text-decoration: underline black;
+}
